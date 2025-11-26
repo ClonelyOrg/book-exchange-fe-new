@@ -73,6 +73,8 @@ describe("<LoginScreen />", () => {
     expect(mockPush).toHaveBeenCalledTimes(3);
   });
 
+  //hi
+
   test("response Google thành công sẽ gọi fetchUserInfo và điều hướng /success", async () => {
     // giả lập response thành công từ Google
     mockUseAuthRequest.mockReturnValue([
