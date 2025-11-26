@@ -74,6 +74,7 @@ describe("<LoginScreen />", () => {
   });
 
   //hi
+  //hi
 
   test("response Google thành công sẽ gọi fetchUserInfo và điều hướng /success", async () => {
     // giả lập response thành công từ Google
